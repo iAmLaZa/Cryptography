@@ -74,13 +74,13 @@ key = np.array([[17, 17,5 ],
                 [21,18,21],
                 [2,2,19]]  )
 
-"""
+
 plaintext = "pay more money"
 cypertext = hill_encryption(plaintext, key)
 print(cypertext)
 plaintext = hill_decryption(cypertext, key)
 print(plaintext)
-"""
+
 
 
 
